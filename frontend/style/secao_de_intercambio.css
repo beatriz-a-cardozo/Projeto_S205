@@ -1,0 +1,204 @@
+:root {
+    --cor-primaria: #ecebe8;
+    --cor-secundaria: #060caa;
+    --cor-destaque: #f05d5e;
+    --cor-inatel: #060caa;
+}
+
+#contato {
+    display: flex;
+    align-items: center;     
+    font-size: 14px;  
+    justify-content: space-between;
+    color: var(--cor-secundaria);
+    padding: 10px;            
+}
+
+#contato .destaque {
+    font-size: 18px;
+}
+#contato img {
+    width: 150px;
+    height: 150px;
+}
+
+.filtros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#filtro-status {
+    width: 30%;
+    height: 40px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    background: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 10px;
+    cursor: pointer;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+#filtro-status select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+.dropdown-filtros {
+    width:100%;
+    height: 40px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    background: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+#filtros-container {
+    position: relative; 
+    width: 60%;
+    margin: 0;
+    height: 40px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;       
+    left: 0;        
+    background:  var(--cor-secundaria);
+    color: var(--cor-primaria);
+    min-width: 95%; 
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 999;
+}
+
+.dropdown-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.dropdown-item label {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.dropdown-item select {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.card {
+    border: 5px solid var(--cor-inatel);
+    border-radius: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 15px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-esquerda {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+.card-esquerda strong{
+    font-size: 20px;
+}
+
+.card-esquerda h2{
+    font-size: 25px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.55);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 25px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 12px;
+    color: black;
+    animation: abrir 0.25s ease;
+}
+
+@keyframes abrir {
+    from { transform: scale(0.8); opacity: 0; }
+    to   { transform: scale(1); opacity: 1; }
+}
+
+
+.close {
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+    color: #444;
+}
+.close:hover {
+    color: #000;
+}
+
+.dark {
+    --cor-primaria: #333e52;
+    --cor-secundaria: #f8f9fc;
+    --cor-destaque: #a64c4c;
+}
+
+
+@media (min-width: 768px) {
+    
+    #contato {
+        justify-content: center;
+        gap: 100px;
+        font-size: 20px;
+    }
+
+    #contato .destaque {
+        font-size: 25px;
+    }
+
+    #lista {
+        margin: 40px;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        gap: 5px;
+        padding: 10px;
+    }
+}

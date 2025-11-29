@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "universidade": "Hochschule Esslingen",
+        "pais": "Alemanha",
+        "idioma": ["Inglês","Alemão"],
+        "ano": 2023,
+        "duracao": 12,
+        "duplaGraduacao": false, 
+        "periodoDeInicio": "2023/2",
+        "periodoFinal": "2024/2",
+        "status": false,
+        "dataDeAberturaIns": "24/04/2023",
+        "dataDeEncerramentoIns": "15/05/2023" 
+    },
+
+    {
+        "id": 2,
+        "universidade": "Jade Hochschule",
+        "pais": "Alemanha",
+        "idioma": ["Inglês","Alemão"],
+        "ano": 2024,
+        "duracao": 1,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2023/2",
+        "periodoFinal": "2026/2",
+        "status": false,
+        "dataDeAberturaIns": "24/08/2024",
+        "dataDeEncerramentoIns": "06/10/2024"  
+    },
+
+    {
+        "id": 3,
+        "universidade": "Escuela Colombiana Julio Garavito",
+        "pais": "Colômbia",
+        "idioma": ["Inglês","Espanhol"],
+        "ano": 2024,
+        "duracao": 5,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2023/1",
+        "periodoFinal": "2023/2",
+        "status": false,
+        "dataDeAberturaIns": "24/08/2024",
+        "dataDeEncerramentoIns": "06/10/2024"  
+    },
+
+    {
+        "id": 4,
+        "universidade": "Universidad Nacional de Córdoba",
+        "pais": "Argentina",
+        "idioma": ["Inglês","Espanhol"],
+        "ano": 2024,
+        "duracao": 10,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2023/1",
+        "periodoFinal": "2023/2",
+        "status": false,
+        "dataDeAberturaIns": "24/08/2024",
+        "dataDeEncerramentoIns": "06/10/2024"  
+    },
+    
+    {
+        "id": 5,
+        "universidade": "Northern Arizona University",
+        "pais": "Estados Unidos",
+        "idioma": ["Inglês"],
+        "ano": 2024,
+        "duracao": 6,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2023/1",
+        "periodoFinal": "2023/2",
+        "status": false,
+        "dataDeAberturaIns": "24/08/2024",
+        "dataDeEncerramentoIns": "01/09/2024"  
+    },
+
+    {
+        "id": 6,
+        "universidade": "Faculdade de Engenharia da Universidade do Porto",
+        "pais": "Portugal",
+        "idioma": ["Português","Inglês"],
+        "ano": 2024,
+        "duracao": 12,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2023/1",
+        "periodoFinal": "2024/1",
+        "status": false,
+        "dataDeAberturaIns": "24/08/2024",
+        "dataDeEncerramentoIns": "30/09/2024"  
+    },
+
+    {
+        "id": 7,
+        "universidade":"Universidade de Lisboa",
+        "pais": "Portugal",
+        "idioma":["Português","Inglês"],
+        "ano": 2024,
+        "duracao": 6,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2023/1",
+        "periodoFinal": "2023/2",
+        "status": false,
+        "dataDeAberturaIns": "24/08/2024",
+        "dataDeEncerramentoIns": "15/09/2024"  
+    },
+    
+    {
+        "id": 8,
+        "universidade": "Waterford Institute of Technology",
+        "pais": "Irlanda",
+        "idioma": ["Inglês"],
+        "ano": 2023,
+        "duracao": 6,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2024/1",
+        "periodoFinal": "2024/2",
+        "status": false, 
+        "dataDeAberturaIns": "4/08/2023",
+        "dataDeEncerramentoIns": "30/09/2023"  
+    },
+    
+    {
+        "id": 9,
+        "universidade": "Sorbonne université",
+        "pais": "França",
+        "idioma": ["Francês"],
+        "ano": 2023,
+        "duracao": 12,
+        "duplaGraduacao": true,
+        "periodoDeInicio": "2023/2",
+        "periodoFinal": "2024/2",
+        "status": false,
+        "dataDeAberturaIns": "18/04/2023",
+        "dataDeEncerramentoIns": "25/04/2023"  
+    },
+
+    {
+        "id": 10,
+        "universidade": "Universidad de Concepción",
+        "pais": "Chile",
+        "idioma": ["Inglês","Espanhol"],
+        "ano": 2023,
+        "duracao": 6,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2023/2",
+        "periodoFinal": "2024/1",
+        "status": false,
+        "dataDeAberturaIns": "11/04/2023",
+        "dataDeEncerramentoIns": "06/06/2023"  
+    },
+
+    {
+        "id": 11,
+        "universidade": "Universidad Autónoma del Caribe",
+        "pais": "Colômbia",
+        "idioma": ["Espanhol","Inglês"],
+        "ano": 2023,
+        "duracao": 4,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2023/1",
+        "periodoFinal": "2023/2",
+        "status": false,
+        "dataDeAberturaIns": "29/02/2023",
+        "dataDeEncerramentoIns": "29/04/2023"  
+    },
+    
+    {
+        "id": 12,
+        "universidade": "Jade Hochschule",
+        "pais": "Alemanha",
+        "idioma": ["Alemão","Inglês"],
+        "ano": 2023,
+        "duracao": 6, 
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2023/2",
+        "periodoFinal": "2024/1",
+        "status": false,
+        "dataDeAberturaIns": "06/05/2023",
+        "dataDeEncerramentoIns": "06/06/2023"  
+    },
+    
+    {
+        "id": 13,
+        "universidade": "Huawei Technologies Co. Ltd.",
+        "pais": "China",
+        "idioma": ["Inglês"],
+        "ano": 2023,
+        "duracao": 1,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2023/2",
+        "periodoFinal": "2023/2",
+        "status": false,
+        "dataDeAberturaIns": "01/08/2023",
+        "dataDeEncerramentoIns": "09/09/2023"  
+    },
+
+    {
+        "id": 14,
+        "universidade": "Peter the Great St.Petersburg Polytechnic University",
+        "pais": "Rússia",
+        "idioma": ["Russo","Inglês"],
+        "ano": 2024,
+        "duracao": 6,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2025/1",
+        "periodoFinal": "2025/2",
+        "status": false,
+        "dataDeAberturaIns": "10/09/2024",
+        "dataDeEncerramentoIns": "20/10/2024"  
+    },
+
+    {
+        "id": 15,
+        "universidade": "Jade Hochschule",
+        "pais": "Alemanha",
+        "idioma": ["Alemão"],
+        "ano": 2025,
+        "duracao": 24,
+        "duplaGraduacao": true,
+        "periodoDeInicio": "2025/1",
+        "periodoFinal": "2026/2",
+        "status": false,
+        "dataDeAberturaIns": "10/09/2024",
+        "dataDeEncerramentoIns": "20/10/2024"  
+    },
+    
+    {
+        "id": 16,
+        "universidade": "Universidad de Deusto",
+        "pais": "Espanha",
+        "idioma": ["Espanhol","Inglês"],
+        "ano": 2024,
+        "duracao": 6,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2025/1",
+        "periodoFinal": "2025/2",
+        "status": false,
+        "dataDeAberturaIns": "10/09/2024",
+        "dataDeEncerramentoIns": "20/10/2024"  
+    },
+    
+    {
+        "id": 17,
+        "universidade": "Lodz University of Technology",
+        "pais": "Polônia",
+        "idioma": ["Inglês", "Polones"],
+        "ano": 2025,
+        "duracao": 6,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2026/2",
+        "periodoFinal": "2027/1",
+        "status": true,
+        "dataDeAberturaIns": "20/11/2025",
+        "dataDeEncerramentoIns": "24/12/2025"  
+    },
+
+    {
+        "id": 18,
+        "universidade": "Instituto Politécnico de Grenoble",
+        "pais": "França",
+        "idioma": ["Inglês","Francês"],
+        "ano": 2025,
+        "duracao": 6,
+        "duplaGraduacao": false,
+        "periodoDeInicio": "2026/2",
+        "periodoFinal": "2027/1",
+        "status": true,
+        "dataDeAberturaIns": "20/11/2025",
+        "dataDeEncerramentoIns": "30/11/2025"  
+    }
+    
+]

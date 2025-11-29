@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Aplicativo do INATEL</title>
+        <link rel="stylesheet" href="style/index_style.css">
+        <link rel="stylesheet" href="style/button_toggle_style.css">
+        <link rel="stylesheet" href="style/secao_de_intercambio.css">
+    </head>
+
+    <body>
+
+        <header>
+            <button id="botao-menu">&#9776;</button>
+            <p><b>Editais de Intercâmbio</b></p>
+            <label class="toggle-switch">
+                <input id="botao-tema" type="checkbox">
+                <span class="slider"></span> 
+            </label>
+            
+        </header>
+        
+        <aside id="side-bar">
+
+            <div class="perfil">
+                <img src="img/user-icon.png">
+                <h3>Nome de Usuario</h3>
+                <p>email@exemplo.com</p>
+            </div>
+
+            <hr>
+
+            <div class="secao"></div>
+                <p>Outras Opções</p>
+
+                <ul>
+                    <li><a href="secao_de_intercambio.html">Editais de Intercâmbio</a></li>
+                    <li><a href="#">Consulta de Pedidos</a></li>
+                    <li><a href="#">Avaliação Docente</a></li>
+                    <li><a href="#">Pesquisa Institucional</a></li>
+                    <li><a href="#">Central de Cópias</a></li>
+                    <li><a href="#">Requerimentos</a></li>
+                    <li><a href="#">Configurações</a></li>
+                    <li><a href="#">Sair</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div id="overlay"></div>
+
+        <div id="secao-intercambio">
+            <div id="contato">
+                <div id="contato-texto">
+                    <p>Qualquer dúvidas, entre em contato com: </p>
+                    <p class="destaque"><b>NESP – Núcleo de estágios e serviços</b></p>
+                    <p>nesp@inatel.br</p>  
+                </div>
+                <img src="img/travel-around-the-world-.png">
+            </div>
+
+        <hr>
+
+        <div id="formulario-inatel"></div>
+        <div class="filtros">
+            <select id="filtro-status" class="select-todos">
+                <option value="">Todos ⭣</option>
+                <option value="Abertos" selected>Abertos ⭣</option>
+            </select>
+
+            <div id="filtros-container">
+                <button class="dropdown-filtros">Filtros ⭣</button>
+
+                <div class="dropdown-menu">
+
+                    <div class="dropdown-item">
+                        <label>Duração</label>
+                        <select id="filtro-duracao"></select>
+                    </div>
+
+                    <div class="dropdown-item">
+                        <label>Idioma</label>
+                        <select id="filtro-idioma"></select>
+                    </div>
+
+                    <div class="dropdown-item">
+                        <label>Universidade</label>
+                        <select id="filtro-universidade"></select>
+                    </div>
+
+                    <div class="dropdown-item">
+                        <label>País</label>
+                        <select id="filtro-pais"></select>
+                    </div>
+
+                    <div class="dropdown-item">
+                        <label>Dupla Graduação</label>
+                        <select id="filtro-dupla-graduacao">
+                            <option value="">Todos</option>
+                            <option value="true">Sim</option>
+                            <option value="false">Não</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+   
+        </div>
+        
+
+        <div id="lista"></div>
+
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="modal-fechar" class="close">&times;</span>
+
+            <h2 id="modal-universidade"></h2>
+            <p><strong>País:</strong> <span id="modal-pais"></span></p>
+            <p><strong>Idioma:</strong> <span id="modal-idioma"></span></p>
+            <p><strong>Duração:</strong> <span id="modal-duracao"></span></p>
+            <p><strong>Dupla Graduação:</strong> <span id="modal-dupla"></span></p>
+            <p><strong>Inscrições:</strong> <span id="modal-inscricao"></span></p>
+            <p><strong>Ano:</strong> <span id="modal-ano"></span></p>
+        </div>
+    </div>
+
+    <script src="script/basic_script.js"></script>
+    <script src="script/listagem_script.js"></script>
+
+    </body>
+
+</html>
