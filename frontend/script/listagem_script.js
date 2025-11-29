@@ -9,7 +9,7 @@ const filtroPais = document.getElementById("filtro-pais");
 
 let editais = [];
 
-fetch("script/json/editais.json")
+fetch("frontend/script/json/editais.json")
     .then(r => r.json())
     .then(json => {
         editais = json;
